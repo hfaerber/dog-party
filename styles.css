@@ -8,14 +8,20 @@
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+font-family: 'Open Sans';
+font-weight: 400;
   color: #000000;
 }
 
 header {
   background-color: #75e2e6;
-  border-bottom: 4px solid #048eaa;
+  border-bottom: 3px solid #048eaa;
   height: 65px;
+}
+
+.site-about-blank {
+  font-weight: 800;
 }
 
 li {
@@ -33,10 +39,14 @@ nav {
 a {
   text-decoration: none;
   font-size: 1em;
+  color: black;
+  font-weight: 600;
+  margin: 10px;
+  line-height: 2em;
 }
 
 .photobckgrnd {
-background-image: url("images/park.jpg");
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
@@ -50,13 +60,14 @@ font-size: 20px;
 
 h1 {
   font-size: 1.5em;
-  padding: 27px 0px 27px 0px;
+  padding: 27px 0px 0px 0px;
+  font-weight: 400;
 }
 
 .icon {
     height: 63px;
     width: 75px;
-    padding: 8px;
+    padding: 8px 0px 8px 14px;
 }
 
 .circle {
@@ -64,6 +75,7 @@ h1 {
   border: 4px solid #048eaa;
   height: 180px;
   width: 180px;
+  margin: 30px;
 }
 
 .formbox {
@@ -81,21 +93,31 @@ h1 {
 #textbox,
 #name-button {
   width: 100%;
+  height: 42px;
+  border-radius: 5px;
 }
 
 #name-button {
   background-color: #75e2e6
+  font-size: .75em;
 }
 
 #how-button {
   padding: 2px auto 2px auto;
 }
 
-.button {
+/* .button {
   background-color: #048eaa;
   margin: 10px 0px 10px 0px;
   height: 36px;
+} */
 
+button {
+  background-color: #048eaa;
+  margin: 14px 0px 10px 0px;
+  height: 47px;
+  width: 100%;
+  border-radius: 2px;
 }
 
 /* main {
@@ -105,7 +127,7 @@ h1 {
 .whitebckgrnd {
   width: 100%;
   /* border: 2px solid red; */
-  padding: 0px 2.6% 0px 2.6%;
+  /* padding: 0px 2.6% 0px 2.6%; */
   height: 639px;
 
 }
