@@ -1,9 +1,9 @@
-var textboxvar = document.querySelector("#textbox");
-var clickButton = document.querySelector("#name-button");
-var textToChange = document.querySelector(".site-about-blank");
+var textBoxVar = document.querySelector(".js-text-box");
+var clickButton = document.querySelector(".js-name-button");
+var textToChange = document.querySelector(".js-site-about-blank");
 
 clickButton.addEventListener("click", function () {
-  var updateTextValue = textboxvar.value;
+  var updateTextValue = textBoxVar.value;
   textToChange.innerText = `${updateTextValue}`;
-  textboxvar.value = "";
+  textBoxVar.value = "";
 });
