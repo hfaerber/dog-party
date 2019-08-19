@@ -208,3 +208,27 @@ h3 {
   display: inline;
   list-style-type: none;
 }
+
+/* remove body padding-bottom & remove footer absolute position and bottom:0 */
+@media screen and (max-width: 556px) {
+  body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #000000;
+    height: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 0;
+  }
+
+  footer {
+    background-color: #048eaa;
+    text-align: center;
+    height: 177px;
+    width: 100%;
+    margin-top: 41px;
+    padding: 25px;
+    position: relative;
+    bottom: auto;
+  }
+}
