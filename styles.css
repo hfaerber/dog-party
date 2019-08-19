@@ -10,12 +10,24 @@ body {
   font-family: 'Open Sans';
   font-weight: 400;
   color: #000000;
+  /* added all 4 below */
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 177px;
 }
 
 header {
   background-color: #75e2e6;
   border-bottom: 2.5px solid #048eaa;
   height: 63px;
+}
+
+/* added .logo styles section */
+.logo {
+  height: 60px;
+  width: 60px;
+  padding: 8px 0px 8px 13px;
 }
 
 nav {
@@ -49,6 +61,13 @@ a {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
+  /* added position */
+  position: relative;
+}
+/* added this whole section (id wasnt there before) */
+.top-main-content {
+  position: absolute;
+  left: 30%;
 }
 
 h1 {
@@ -100,6 +119,7 @@ h1 {
   width: 100%;
   padding: 22px 0px 0px 0px;
   height: 639px;
+  position: relative;
 }
 
 h2 {
@@ -107,13 +127,32 @@ h2 {
 }
 
 .column-box {
-  width: 27.6%;
+  /* changed width from 27.6% */
+  width: 27.15%;
   display: inline-block;
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 2.7%;
-  margin-right: 2.7%;
+  /* changed bottom from 2% */
+  margin-bottom: 0;
+  /* changed left and right from 2.7% */
+  margin-left: 2.9%;
+  margin-right: 2.9%;
+}
+
+/* added these three column id styling bc they didnt exist in html before */
+#how-column {
+  position: absolute;
+  left: 0;
+}
+
+#what-column {
+  position: absolute;
+  left: 33.5%;
+}
+
+#facts-column {
+  position: absolute;
+  right: 4px;
 }
 
 .column-text {
@@ -128,7 +167,8 @@ button {
   font-weight: 400;
   color: #ffffff;
   background-color: #048eaa;
-  margin: 14px 0px 10px 0px;
+  /* changed bottom margin from 10px */
+  margin: 14px 0px 0px 0px;
   height: 47px;
   width: 100%;
   border-radius: 2px;
@@ -139,12 +179,16 @@ button {
 footer {
   background-color: #048eaa;
   text-align: center;
-  height: 13%;
-  min-height: 13%;
+  /* changed height from 13% */
+  height: 177px;
+  /* removed min-height */
   width: 100%;
+  /* added margin top */
+  margin-top: 41px;
   padding: 25px;
-  position: relative;
-  top: auto;
+  /* changed from position relative, top auto to whats below */
+  position: absolute;
+  bottom: 0;
 }
 
 h3 {
