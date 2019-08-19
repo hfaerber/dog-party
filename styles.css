@@ -112,11 +112,16 @@ h1 {
   border-radius: 1px;
   border: 0;
   margin-bottom: 20px;
+  cursor: text;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .name-button {
   background-color: #75e2e6;
   font-size: .85em;
+  cursor: pointer;
 }
 
 .white-background {
