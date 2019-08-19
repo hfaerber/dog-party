@@ -228,7 +228,32 @@ h3 {
     width: 100%;
     margin-top: 41px;
     padding: 25px;
+    position: none;
+    top: none;
+  }
+
+  .column-box {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 2.9%;
+    margin-right: 2.9%;
+  }
+
+  #how-column {
     position: relative;
-    bottom: auto;
+    left: auto;
+  }
+
+  #what-column {
+    position: relative;
+    left: auto;
+  }
+
+  #facts-column {
+    position: relative;
+    left: auto;
   }
 }
