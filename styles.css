@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-* {
-  border: .5px solid red;
-}
-
 body {
   font-family: 'Open Sans';
   font-weight: 400;
@@ -53,9 +49,12 @@ a {
 }
 
 .photo-background {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/park.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/park.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/park.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/park.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/park.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/park.jpg");
   background-repeat: no-repeat;
   background-position: 50% 85%;
   background-size: cover;
