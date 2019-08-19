@@ -67,6 +67,7 @@ a {
 
 /* removed this section from html but if i remove here it bolds h1 WHY */
 .top-main-content {
+  width: 33%;
   /* margin: 0px auto 0px auto;
   border: .5 solid blue; */
   /* position: absolute;
