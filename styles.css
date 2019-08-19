@@ -6,11 +6,14 @@
   padding: 0;
 }
 
+* {
+  border: .5px solid red;
+}
+
 body {
   font-family: 'Open Sans';
   font-weight: 400;
   color: #000000;
-  /* added all 4 below */
   height: 100%;
   position: relative;
   min-height: 100vh;
@@ -23,7 +26,6 @@ header {
   height: 63px;
 }
 
-/* added .logo styles section */
 .logo {
   height: 60px;
   width: 60px;
@@ -61,13 +63,15 @@ a {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
-  /* added position */
   position: relative;
 }
-/* added this whole section (id wasnt there before) */
+
+/* removed this section from html but if i remove here it bolds h1 WHY */
 .top-main-content {
-  position: absolute;
-  left: 30%;
+  /* margin: 0px auto 0px auto;
+  border: .5 solid blue; */
+  /* position: absolute;
+  left: 30%; */
 }
 
 h1 {
@@ -127,19 +131,15 @@ h2 {
 }
 
 .column-box {
-  /* changed width from 27.6% */
   width: 27.15%;
   display: inline-block;
   text-align: center;
   margin-top: 2%;
-  /* changed bottom from 2% */
   margin-bottom: 0;
-  /* changed left and right from 2.7% */
   margin-left: 2.9%;
   margin-right: 2.9%;
 }
 
-/* added these three column id styling bc they didnt exist in html before */
 #how-column {
   position: absolute;
   left: 0;
@@ -167,7 +167,6 @@ button {
   font-weight: 400;
   color: #ffffff;
   background-color: #048eaa;
-  /* changed bottom margin from 10px */
   margin: 14px 0px 0px 0px;
   height: 47px;
   width: 100%;
@@ -179,14 +178,10 @@ button {
 footer {
   background-color: #048eaa;
   text-align: center;
-  /* changed height from 13% */
   height: 177px;
-  /* removed min-height */
   width: 100%;
-  /* added margin top */
   margin-top: 41px;
   padding: 25px;
-  /* changed from position relative, top auto to whats below */
   position: absolute;
   bottom: 0;
 }
